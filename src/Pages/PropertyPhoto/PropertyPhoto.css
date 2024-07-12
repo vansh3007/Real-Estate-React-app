@@ -1,0 +1,53 @@
+.PropertyPhoto{
+    display: flex;
+width: 820px;
+height: 668px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+}
+.PropertyPhoto pre{
+    text-align: start;
+    align-self: stretch;
+    color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 122.222% */
+}
+.cam{
+    height: 300px !important;
+    width: 820px;
+    display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid var(--border-grey, #D6D6D6);
+background: #FFF;
+}
+
+.camContainer button{
+    height: 40px;
+    width: 176px;
+    display: flex;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+background: var(--main-blue, #122B49);
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 137.5% */
+}
+
+.format{
+    text-align: start;
+    line-height: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}

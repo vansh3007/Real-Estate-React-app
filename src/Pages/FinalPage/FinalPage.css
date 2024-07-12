@@ -1,0 +1,73 @@
+.FinalPage{
+    display: flex;
+width: 820px;
+flex-direction: column;
+align-items: flex-start;
+text-align: start;
+position: absolute;
+top: 160px;
+left: 120px;
+
+}
+
+.FinalPage h4{
+    color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 91.667% */
+}
+
+.FinalPage p{
+    width: 820px;
+    color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 38px; /* 211.111% */
+}
+.FinalPage pre{
+    color: var(--main-blue, #122B49);
+font-family: "Jacques Francois";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.FinalPage b{
+    display: flex;
+padding: 5px 12px;
+align-items: center;
+gap: 4px;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 2px;
+background: var(--Neutral-1, #FFF);
+}
+
+.buttonContainer{
+    display: flex;
+align-items: flex-start;
+gap: 40px;
+}
+
+.buttonContainer button{
+    display: flex;
+width: 207px;
+padding: 12px 32px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background-color:  #122B49;
+color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

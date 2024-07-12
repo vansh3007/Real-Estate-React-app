@@ -1,0 +1,16 @@
+.Preview{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+.Preview img{
+    width: 100vw;
+}
+
+.previewFooter{
+    margin-top: 200vh;
+}
+
+.previewFooter img{
+    width: 100vw;
+}

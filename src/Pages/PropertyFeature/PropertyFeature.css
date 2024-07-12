@@ -1,0 +1,66 @@
+.PropertyFeature {
+  height: 2900px;
+  width: 846px;
+  margin: 0;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: start;
+}
+
+.NonVegForm {
+  display: flex;
+  gap: 200px;
+}
+.PetForm {
+  display: flex;
+  gap: 242px;
+}
+
+.ElectricityForm {
+  display: flex;
+  gap: 135px;
+}
+
+.WaterForm {
+  display: flex;
+  gap: 100px;
+}
+
+.furnituereForm {
+  display: flex;
+  gap: 150px;
+}
+
+.checkbox {
+  display: flex;
+  height: 138px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgConatiner {
+  display: flex;
+  width: 135px;
+  height: 96px;
+  padding: 16px 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--grey-text-2, #7A7A7A);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.SocietyFromBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
