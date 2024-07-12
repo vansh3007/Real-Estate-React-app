@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vansh3007.github.io/Real-Estate-React/",
+  "homepage": "https://vansh3007.github.io/Real-Estate-React-app/",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,6 @@
     "predeploy": "npm run build",
     "build": "vite build",
     "deploy": "gh-pages -d dist",
-
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
