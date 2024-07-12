@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route,
   HashRouter,
@@ -20,36 +20,39 @@ import HomeOtp from "../Pages/HomeOtp/Home.jsx"
 function AllRoute() {
   
   return (
-    <HashRouter>
-    <Routes>
-      <Route path="/" element={<HomeInfo />}></Route>
-      <Route path="/otp" element={<HomeOtp />}></Route>
+    
+      <Routes>
+        <Route path="/" element={<HomeInfo />}></Route>
+        <Route path="/otp" element={<HomeOtp />}></Route>
 
-      <Route path="/SellerPriceDetail" element={<SellerPriceDetail />}></Route>
-      <Route
-        path="/SellerPropertyDetail"
-        element={<SellerPropertyDetail />}
-      ></Route>
-      <Route
-        path="/SellerPropertyFeature"
-        element={<SellerPropertyFeature />}
-      ></Route>
-      <Route
-        path="/SellerPropertyLocation"
-        element={<SellerPropertyLocation />}
-      ></Route>
-      <Route
-        path="/SellerPropertyPhoto"
-        element={<SellerPropertyPhoto />}
-      ></Route>
-      <Route
-        path="/SellerPropertyPhotoOverFlow"
-        element={<SellerPropertyPhotoOverFlow />}
-      ></Route>
-      <Route path="/FinalPage" element={<FinalPage />}></Route>
-      <Route path="/Preview" element={<Preview />}></Route>
+        <Route
+          path="/SellerPriceDetail"
+          element={<SellerPriceDetail />}
+        ></Route>
+        <Route
+          path="/SellerPropertyDetail"
+          element={<SellerPropertyDetail />}
+        ></Route>
+        <Route
+          path="/SellerPropertyFeature"
+          element={<SellerPropertyFeature />}
+        ></Route>
+        <Route
+          path="/SellerPropertyLocation"
+          element={<SellerPropertyLocation />}
+        ></Route>
+        <Route
+          path="/SellerPropertyPhoto"
+          element={<SellerPropertyPhoto />}
+        ></Route>
+        <Route
+          path="/SellerPropertyPhotoOverFlow"
+          element={<SellerPropertyPhotoOverFlow />}
+        ></Route>
+        <Route path="/FinalPage" element={<FinalPage />}></Route>
+        <Route path="/Preview" element={<Preview />}></Route>
       </Routes>
-      </HashRouter>
+    
   );
 }
 

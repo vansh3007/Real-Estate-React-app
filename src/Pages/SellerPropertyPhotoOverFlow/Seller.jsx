@@ -40,7 +40,7 @@ function Seller() {
           <button>Next</button>
         </div>
       </div>
-      <div className="SellerOverflowOuter">
+      <div className="SellerOverflowOuter ">
         <div className="SellerOverflow">
           <div className="SellerOverFlowContainer">
             <p>POST PROPERTY ON DYLAN ESTATE?</p>

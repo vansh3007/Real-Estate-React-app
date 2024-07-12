@@ -168,13 +168,13 @@ text-decoration-line: underline;
 
 .SellerOverflowOuter{
     width: 976px;
-height: 605px;
-position: absolute;
-top: 80px;
+height: 505px;
 display: flex;
 justify-content: center;
 align-items: center;
 z-index: 1000;
-background-color:rgba(35, 36, 36, 0.25)
+background-color:rgba(35, 36, 36, 0.25);
+margin-top: 50px;
+margin-left: 180px;
 
 }

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "./Home.css"
 import Check from "../../assets/check.png"
 import InfoWindow from '../InfoWindow/InfoWindow';
-import OtpWindow from '../OtpWindow/OtpWindow';
 import { NavLink } from "react-router-dom";
 
 function Home() {

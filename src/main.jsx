@@ -1,10 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+// main.jsx or index.jsx (entry file)
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter as Router } from "react-router-dom";
+import App from "./App";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+const container = document.getElementById("root");
+const root = createRoot(container); // createRoot container instead of ReactDOM.render
+
+root.render(
+  <Router basename="/Real-Estate-React-app">
     <App />
-  </React.StrictMode>,
-)
+  </Router>
+);
