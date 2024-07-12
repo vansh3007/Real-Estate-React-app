@@ -8,7 +8,7 @@ const container = document.getElementById("root");
 const root = createRoot(container); // createRoot container instead of ReactDOM.render
 
 root.render(
-  <Router basename="/Real-Estate-React-app">
+  <Router >
     <App />
   </Router>
 );
