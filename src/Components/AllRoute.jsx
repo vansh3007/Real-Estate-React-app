@@ -3,8 +3,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  useLocation,
-  useParams,
+  HashRouter,
 } from "react-router-dom";
 import SellerPriceDetail from "../Pages/SellerPriceDetail/Seller.jsx"
 import SellerPropertyDetail from "../Pages/SellerPropertyDetail/Seller.jsx";
@@ -21,6 +20,7 @@ import HomeOtp from "../Pages/HomeOtp/Home.jsx"
 function AllRoute() {
   
   return (
+    <HashRouter>
     <Routes>
       <Route path="/" element={<HomeInfo />}></Route>
       <Route path="/otp" element={<HomeOtp />}></Route>
@@ -48,7 +48,8 @@ function AllRoute() {
       ></Route>
       <Route path="/FinalPage" element={<FinalPage />}></Route>
       <Route path="/Preview" element={<Preview />}></Route>
-    </Routes>
+      </Routes>
+      </HashRouter>
   );
 }
 
